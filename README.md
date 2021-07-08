@@ -1,2 +1,2 @@
 # DEMS
-Dynamic Employee Management System
+Minor Project JP
