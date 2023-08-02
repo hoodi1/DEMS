@@ -56,17 +56,3 @@ This is a simple Flask web application that provides OTP (One-Time Password) gen
 1. To access routes protected by the `admin_login_required` decorator, you must first log in as an admin user.
 2. Access the "/admin_login" page and provide the admin login credentials.
 3. After successful login, you will be redirected to the restricted admin route you attempted to access.
-
-## Note
-
-- This application uses Gmail's SMTP server to send emails. Make sure to set up your Gmail account credentials in the `generate_otp()` function before using the OTP generation feature.
-
-- This is a basic demonstration of OTP generation and login functionality. In a real-world scenario, more robust security measures and user authentication systems should be implemented.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Please adjust the contents, formatting, and other details in the `README.md` file to reflect your specific project and implementation. The above template serves as a starting point to provide essential information to users about your Flask web application.
